@@ -1,0 +1,42 @@
+.name-dialog {
+    -fx-background-color: #7B2869;
+    -fx-padding: 20;
+    -fx-spacing: 10;
+}
+
+.name-dialog .header-panel {
+    -fx-background-color: #4285f4;
+}
+
+.name-dialog .header-panel .label {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.name-dialog .content.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+.name-dialog .text-field {
+    -fx-pref-width: 250px;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+.name-dialog .button-bar .button {
+    -fx-background-radius: 5px;
+    -fx-padding: 8 15;
+    -fx-font-weight: bold;
+}
+
+.name-dialog .button-bar .button:default {
+    -fx-background-color: #7AE2CF;
+    -fx-text-fill: white;
+}
+
+.name-dialog .button-bar .button:cancel {
+    -fx-background-color:  linear-gradient(to right, #800080, #ffc0cb);
+    -fx-text-fill: white;
+}
